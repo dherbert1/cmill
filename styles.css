@@ -7,18 +7,19 @@ li, ul{
     text-align: right;
 }
 p{
-    padding: 0.5em;;
+    padding: 0.5;
     color:#f6f7eb;
     text-align:center;
 }
 *{background-color:#264027;  
    
 }
-div{outline-width:2; outline-color:#d5a021; outline-style:dashed;}
+div{outline-width:2; outline-color:#d5a021; outline-style:dotted;}
 
 h1,h2{
     text-align:center;
-    color:#;f6f7eb
+    color:#f6f7eb;
 }
 .logo{align-items:left; max-width: 3; max-height: 2; padding:.5;}
 .picture{align-items:center; width:2; height:2; padding:.5;}
+.pagelink{color:#d5a021; }
