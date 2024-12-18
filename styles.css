@@ -4,7 +4,6 @@ li, ul{
     list-style-type:none; 
     margin:0;
     padding:0;
-    text-align: right;
 }
 p{
     padding: 0.5;
@@ -22,4 +21,4 @@ h1,h2{
 }
 .logo{align-items:left; max-width: 3; max-height: 2; padding:.5;}
 .picture{align-items:center; width:2; height:2; padding:.5;}
-.pagelink{color:#d5a021; }
+.pagelink{color:#d5a021; text-align: right; }
