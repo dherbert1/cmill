@@ -6,8 +6,10 @@ li, ul{
     padding:0;
 }
 p{
-    padding:.5;
-    color:#1c1d21;
+    padding:.25;
+    color:#e6ebe0
 }
-*{background-color:#1c7293;}
+*{background-color:#1c7293;
+    text-align: center;
+}
 div{outline-width: 2; outline-color: #e6aace; outline-style: dashed;}
