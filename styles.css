@@ -8,17 +8,17 @@ li, ul{
 }
 p{
     padding: 0.5em;;
-    color:#e6ebe0;
+    color:#f6f7eb;
     text-align:center;
 }
-*{background-color:#d33f49;  
+*{background-color:#264027;  
    
 }
-div{outline-width:2; outline-color:#1f0812; outline-style:dashed;}
+div{outline-width:2; outline-color:#d5a021; outline-style:dashed;}
 
 h1,h2{
     text-align:center;
-    color:#e6ebe0;
+    color:#;f6f7eb
 }
 .logo{align-items:left; max-width: 3; max-height: 2; padding:.5;}
 .picture{align-items:center; width:2; height:2; padding:.5;}
