@@ -20,5 +20,5 @@ h1,h2{
     text-align:center;
     color:#e6ebe0;
 }
-.logo{align-items:left;}
+.logo{align-items:left; max-width: 3px; max-height: 2px;}
 .picture{align-items:center; width:2px; height:2px;}
