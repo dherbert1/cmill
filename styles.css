@@ -11,7 +11,7 @@ p{
     color:#e6ebe0;
     text-align: center;
 }
-*{background-color:#1c7293;
+*{background-color:#1c7293;  align-content: center;
    
 }
 div{outline-width: 2; outline-color: #e6aace; outline-style: dashed;}
