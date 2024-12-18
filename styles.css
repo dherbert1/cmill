@@ -19,4 +19,5 @@ h1,h2{
     text-align: center;
     color:#edd4b2;
 }
-img{align-items:center;}
+.logo{align-items:left;}
+.picture{align-items: left;}
