@@ -11,10 +11,12 @@ p{
     color:#e6ebe0;
     text-align: center;
 }
-*{background-color:#1c7293;  align-content: center;
+*{background-color:#c3423f;  align-content: center;
    
 }
 div{outline-width: 2; outline-color: #e6aace; outline-style: dashed;}
 h1,h2{
     text-align: center;
+    color:#edd4b2;
 }
+img{align-items:center;}
