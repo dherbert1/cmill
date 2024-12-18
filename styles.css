@@ -9,7 +9,7 @@ li, ul{
 p{
     padding:.25;
     color:#e6ebe0;
-    text-align: center;
+    text-align:center;
 }
 *{background-color:#d33f49;  
    
@@ -17,8 +17,8 @@ p{
 div{outline-width:2; outline-color:#1f0812; outline-style:dashed;}
 
 h1,h2{
-    text-align: center;
+    text-align:center;
     color:#e6ebe0;
 }
 .logo{align-items:left;}
-.picture{align-items: center;}
+.picture{align-items:center;}
