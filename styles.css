@@ -4,12 +4,17 @@ li, ul{
     list-style-type:none; 
     margin:0;
     padding:0;
+    text-align: right;
 }
 p{
     padding:.25;
-    color:#e6ebe0
-}
-*{background-color:#1c7293;
+    color:#e6ebe0;
     text-align: center;
 }
+*{background-color:#1c7293;
+   
+}
 div{outline-width: 2; outline-color: #e6aace; outline-style: dashed;}
+h1,h2{
+    text-align: center;
+}
