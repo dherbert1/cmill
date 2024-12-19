@@ -21,3 +21,15 @@ h1,h2{
 }
 
 .pagelink{color:#d5a021; text-align: right; }
+
+.header{
+    display: flex
+}
+
+.logo{
+    
+}
+
+.nav{
+
+}
