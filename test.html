@@ -18,9 +18,45 @@
          <li>  <a class="pagelink" href="videoads.html">Ads Page Link</a></li>
      </ul>
     </nav>
-    <h1>Test</h1>
-    <p>Why....</p>
-    <div class="beginningoftest"></div>
-
+    <div><h1>Test</h1>
+    <p>Why make adopters take a test? To protect our precious furry friends. We don't want sweet innocent
+        souls to be harmed. To ensure that these animals will be treated correctly, please fill out this
+        form honestly and accordingly. 
+    </p></div>
+    <div class="beginningoftest">
+    <form method="post" action=''>
+         
+        <fieldset>
+          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Adopted Before?</legend>
+          <label for="adoptedbefore"><input id="adoptedbefore" type="radio" name="adopttype" class="inline" checked />Adopted Before</label>
+          <label for="notadoptedbefore"><input id="notadoptedbefore" type="radio" name="adopttype" class="inline" /> Never Adopted</label>
+        </fieldset>
+        <fieldset>
+          <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+          <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+          <label for="housing">How big is your home?
+            <select id="housing" name="housing">
+              <option value="">(select one)</option>
+              <option value="1">apartment</option>
+              <option value="2">small house</option>
+              <option value="3">large house</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+          <label for="bio">Provide a bio:
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I am..."></textarea>
+          </label>
+        </fieldset>
+        <label for="terms-and-conditions">
+          <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
 </body>
 </html>
